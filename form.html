@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Toscana Running</title>
+  
+  <link rel="stylesheet" href="style-form.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans&family=Bowlby+One+SC:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Formulário de Inscrição</h1>
+      <p>O primeiro passo, é preencher esse
+        formulário de inscrição.</p>
+    </header>
+    <form id="my-form">
+
+      <fieldset>
+        <div class="fildset-wrapper">
+          <legend>Informações do Corredor</legend>
+  
+          <div class="input-wrapper">
+            <label for="event-title">Nome completo <span>(mínimo 8 caracteres)</span></label>
+            <input type="text" id="event-title" required minlength="8" 
+              placeholder="Digitar o título do evento"/>        
+          </div>
+  
+          <div class="input-wrapper">
+            <label for="event-link">Número da Casa <span>(mínimo 3 caracteres)</span></label>
+            <input type="number" id="event-link" />        
+          </div>
+
+          <div class="input-wrapper">
+            <label for="event-date">Data de nascimento</label>
+            <input 
+              type="date" 
+              id="event-date"
+              required 
+              placeholder="00/00/0000"/>        
+          </div>
+          
+          
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <div class="fildset-wrapper">
+          <legend>Opções</legend>
+
+          <div class="input-wrapper-sexo">
+            <label for="event-category">Sexo</label>
+            <select id="event-category">
+              <option value="male">M</option>        
+              <option value="female">F</option>
+              <option value="other">N/A</option>
+            </select>   
+            
+            <label for="event-category">Tamanho da Camiseta</label>
+            <select id="event-category">
+              <option value="Small">P</option>        
+              <option value="Medium">M</option>        
+              <option value="Large">G</option>
+              <option value="Extra Large">GG</option>
+            </select>             
+            
+          </div>
+
+          <div class="input-wrapper">
+            <label for="event-email">E-mail para contato <span>(digite um email válido)</span></label>
+            <input type="email" id="event-email" />        
+          </div>
+
+          <div class="input-wrapper">
+            <label for="event-whatsapp">Whatsapp para contato <span>(somente números)</span></label>
+            <input type="number" id="event-whatsapp" />        
+          </div>          
+
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="event-private" />        
+            <label for="event-private">Estou ciente das<strong><a href="">régras</a></strong>aplicadas ao evento.</label>
+          </div>
+
+        </div>
+      </fieldset>      
+
+    </form>
+    
+    <footer>
+      <button 
+        class="button" 
+        type="submit" 
+        form="my-form">
+        ENVIAR
+      </button> 
+      
+      <a href="index.html">VOLTAR</a>     
+
+    </footer>
+  </div>
+</body>
+</html>
