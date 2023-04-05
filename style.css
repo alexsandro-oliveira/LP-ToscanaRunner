@@ -267,7 +267,7 @@ footer p{
 
 footer a{
   color: var(--yellow);
-  font-weight: 700  ;
+  font-weight: 700;
 }
 
 @media (max-width:785px) {

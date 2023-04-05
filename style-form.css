@@ -262,17 +262,17 @@ fieldset legend {
   }
 
   
- footer p {
-  color: #FFFFFF;
-  text-decoration: none;
+  footer p{
+    margin-top: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+  }
   
-  font-family: 'Archivo', sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
-  line-height: 2.6rem;
-
-  padding: 1rem 1rem;   
- }  
+  footer a{
+    text-decoration: none;
+    color: #FFCD18;
+    font-weight: 700;
+  } 
 
 input:required:not(:placeholder-shown):invalid {
   border: 1px solid #FF1010;  
