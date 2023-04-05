@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+:root{
+  font-size: 62.5%;
+  --purple:#6868c7;
+  --yellow:#FFCD18;
+  --white:#fff;
+  --dark:#1e1c2a;
+}
+body{
+  font-size: 1.6rem;
+  color: var(--dark);
+  background: var(--purple);
+}
+
+.page {
+  max-width: 100rem;
+  height: 100%;
+  margin: auto;
+  padding: 5rem 5rem;
+  background: #6868c7;   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page img{
+  width: 100%;
+}
+
+.page h1{
+padding: 0 0 5rem;
+font-size: 3rem;
+color: #fff;
+}
+
+.page h2{
+padding: 5rem 0 0 ;
+font-size: 3.2rem;
+color: #FFCD18;
+}
