@@ -17,34 +17,32 @@
   
   <div class="page">
     <header>
-      <h1>Formulário de Inscrição</h1>
-      <p>O primeiro passo, é preencher esse
-        formulário de inscrição.</p>
+      <h1>Formulário de Inscrição</h1>      
     </header>
-    <form action="https://api.sheetmonkey.io/form/eu1VSYdeDfpns7tKYWChZ2" method="post" id="my-form">
+    <form action="https://api.sheetmonkey.io/form/eu1VSYdeDfpns7tKYWChZ2" method="post">
 
       <fieldset>
         <div class="fildset-wrapper">
           <legend>Informações do Corredor</legend>
   
           <div class="input-wrapper">
-            <label for="event-title">Nome completo <span>(mínimo 8 caracteres)</span></label>
-            <input type="text" id="event-title" required minlength="8" 
-              placeholder="Digitar o nome completo"/>        
+            <label for="event-title"></span></label>
+            <input type="text" name="name" required minlength="8" 
+              placeholder="Nome completo"/>        
           </div>
   
           <div class="input-wrapper">
-            <label for="event-link">Número da Casa <span>(mínimo 3 caracteres)</span></label>
-            <input type="number" id="event-link" />        
+            <label for="event-link"></label>
+            <input type="number" name="#casa" required minlength="3"
+              placeholder="Numero da casa"/>        
           </div>
 
           <div class="input-wrapper">
             <label for="event-date">Data de nascimento</label>
             <input 
               type="date" 
-              id="event-date"
-              required 
-              placeholder="00/00/0000"/>        
+              name="nascimento"
+              required />        
           </div>
           
           
@@ -58,52 +56,50 @@
 
           <div class="input-wrapper-sexo">
             <label for="event-category">Sexo</label>
-            <select id="event-category">
-              <option value="male">M</option>        
-              <option value="female">F</option>
-              <option value="other">N/A</option>
+            <select name="sexo">
+              <option value="Homem">M</option>        
+              <option value="Mulher">F</option>
+              <option value="Nao Informado">N/A</option>              
             </select>   
             
             <label for="event-category">Tamanho da Camiseta</label>
-            <select id="event-category">
-              <option value="Small">P</option>        
-              <option value="Medium">M</option>        
-              <option value="Large">G</option>
-              <option value="Extra Large">GG</option>
+            <select name="Tamanho">
+              <option value="P">P</option>        
+              <option value="M">M</option>        
+              <option value="G">G</option>
+              <option value="GG">GG</option>
             </select>             
             
           </div>
 
           <div class="input-wrapper">
-            <label for="event-email">E-mail para contato <span>(digite um email válido)</span></label>
-            <input type="email" id="event-email" />        
+            <label for="event-email"></label>
+            <input type="email" name="email" required placeholder="E-mail para contato"/>        
           </div>
 
           <div class="input-wrapper">
-            <label for="event-whatsapp">Whatsapp para contato <span>(somente números)</span></label>
-            <input type="number" id="event-whatsapp" />        
+            <label for="event-whatsapp"></label>
+            <input type="number" name="whatsapp" required placeholder="Whatsapp para contato"/>        
           </div>          
 
           <div class="checkbox-wrapper">
-            <input type="checkbox" id="event-private" required />        
+            <input type="checkbox" name="Termo OK" required />        
             <label for="event-private">Estou ciente das<strong><a href="termo.html">regras</a></strong>aplicadas ao evento.</label>
           </div>
 
         </div>
-      </fieldset>      
+      </fieldset>
+
+      <div class="buttons">
+        <button type="submit">Enviar</button>
+        <a class="voltar" href="index.html">Voltar</a>
+      </div>
+      
 
     </form>
     
-    <footer>
-      <button 
-        class="button" 
-        type="submit" 
-        form="my-form">
-        ENVIAR
-      </button> 
-      
-      <a href="index.html">VOLTAR</a>     
-
+    <footer>      
+      <p>desenvolvido por Alesx</p>
     </footer>
   </div>
 </body>

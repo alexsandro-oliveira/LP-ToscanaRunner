@@ -1,86 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1º Toscana Running</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans&family=Bowlby+One+SC:wght@400;700&display=swap" rel="stylesheet">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    
-    <div class="page">        
-        
-        <nav>
-          <a id="logo" href="#">
-            <img src="images/logo1.svg" alt="Logo Casas da Toscana">
-          </a>
-          <ul>
-            <li> <a href="#">Home</a></li>
-            <li> <a href="termo.html">Termo</a></li>            
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1º Toscana Running</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans&family=Bowlby+One+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header>    
+      <nav class="navigation">
+          <img class="logo" src="images/logo1.svg" alt="Logo Casas da Toscana">
+
+          <ul class="nav-menu">
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#">Sobre</a></li>
+              <li class="nav-item"><a href="termo.html">Termo</a></li>
+              <li class="nav-item"><a href="form.html">Inscriçao</a></li>
+              <li class="nav-item"><a href="https://web.whatsapp.com/send?phone=5511998950236">Contato</a></li>
+              <i class='bx bx-search'></i>
           </ul>
           <div class="menu">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
-          </div>          
-        </nav>
+          </div>
+      </nav>
+  </header>
+    <main>
+        <section class="home">
+            <div class="home-img">
+                <img src="images/IMG.png" alt="imagem da visão traseira das pernas de uma pessoa correndo">
+            </div>
 
-      
-      <main>  
-        <div class="image-bg">
-          <img src="images/IMG.png" alt="imagem da visão traseira das pernas de uma pessoa correndo">
+            <div class="home-text">
+                <h1>1º Toscana <span>Running</span></h1>
+                <h3>Etapa -  Irmãs da Toscana</h3>
+                <h2 class="modalidade">percurso:<span>5K</span></h2>
+                <p>
+                    Venham participar deste evento dentro de casa. </br> Invista na sua <strong> saúde</strong> e qualidade de vida.
+                </p>
 
-        </div>
-        
-        <div class="container">
+                <button>
+                    <a href="form.html" class="form-btn">Inscrição</a>            
+                </button>
 
-          <section>
-                        
-            <h1>1º Toscana <span>Running</span></h1>
+                <div class="ctto">
+                    <p>contato:</p>
+                    <a href="https://web.whatsapp.com/send?phone=5511998950236" target="_blank">
+                        <img src="images/whats.svg" alt="logo whatsapp">
+                    </a>
+                </div>           
             
-            <h3>Etapa -  Irmãs da Toscana</h3>
+            </div>
 
             
-            <h2 class="modalidade">percurso:<span>5K</span></h2>  
-  
-            <p>
-              Venham participar deste evento dentro de casa. </br> Invista na sua <strong> saúde</strong> e qualidade de vida.
-              </p>        
-            
-            
-          </section>
-  
-          <button>
-            <a href="form.html">Inscrição</a>            
-          </button>
+        </section>
+    </main>
 
-        </div>
-        
-                
-      </main>
-      
-      
-      <footer>
-        
-        <div>
-            <a href="https://web.whatsapp.com/send?phone=5511998950236" target="_blank">
-              <img src="images/whats.svg" alt="logo whatsapp">
-            </a>
-          </strong>
-        </div>
+    <footer>
+    </footer> 
 
-        
-          
-      
-      </footer>
-    </div>
-    
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
-
