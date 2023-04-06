@@ -226,7 +226,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15rem;
+  gap: 5rem;
   margin-top: 5rem;
 }
 
@@ -236,6 +236,9 @@ button:hover {
 }
 .sponsors .logo-angelica{
   width: 15rem;
+}
+.sponsors .logo-marcela{
+  width: 22rem;
 }
 
 .patrocinadores .spon3{
@@ -324,7 +327,7 @@ footer a{
   .home-text .modalidade{
     font-size: 1.4rem;
   }
-    
+
   .home p{
     font-size: 1.3rem;
   }
