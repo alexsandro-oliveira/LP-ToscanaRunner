@@ -230,9 +230,8 @@ button:hover {
   margin-top: 5rem;
 }
 
-.patrocinadores .spon1{
-  border: 1px solid #5E0070;  
-  padding: 8rem 5rem;
+.sponsors .logo-irmas{
+  width: 32rem;
 }
 .sponsors .logo-angelica{
   width: 15rem;
@@ -245,7 +244,6 @@ button:hover {
   border: 1px solid #5E0070;
   padding: 5rem;
 }
-
 
 .img-trajeto {
   margin-top: 5rem;
