@@ -308,9 +308,12 @@ button:hover {
   width: 18rem;
 }
 
+.rota h1 {
+  margin-top: 5rem;
+}
 
 .img-trajeto {
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 .img-trajeto img {
   width: 100%;  
@@ -334,14 +337,14 @@ footer a{
 @media (max-width: 1000px) {
   .home-text h1{
     font-size: 3rem;
-    line-height: 30px;
+    line-height: 40px;
    }
   .home-text h3{
     font-size: 1.5rem;
    }
   .home-text .data{
     font-size: 2rem;
-    margin-top: 0;
+    margin-top: 10px;
    }
   .home-text .modalidade span{
     font-size: 5rem;    
