@@ -38,7 +38,7 @@ header h3 {
   font-family: 'Bowlby', sans-serif;
   font-weight: bold;
   font-size: 1.3rem;
-  line-height: 28px;
+  line-height: 24px;
   color: #FFFFFF;
   background: rgb(145, 10, 172);
   width: 90%;
@@ -51,6 +51,7 @@ header h3 span{
   background: #530461;
   padding: 5px 5px 5px 5px;
   border-radius: 20px;
+  font-size: 1.8rem;
 }
 
 .whats a{
