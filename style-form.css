@@ -37,14 +37,31 @@ header h1 {
 header h3 {
   font-family: 'Bowlby', sans-serif;
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   line-height: 28px;
   color: #FFFFFF;
-  margin-bottom: 20px;
   background: rgb(145, 10, 172);
   width: 90%;
   margin: 0 auto 1.5rem;
   border-radius: 20px;
+  padding: 5px;
+}
+
+header h3 span{
+  background: #530461;
+  padding: 5px 5px 5px 5px;
+  border-radius: 20px;
+}
+
+.whats a{
+  font-family: 'Bowlby', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ctto {
