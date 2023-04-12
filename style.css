@@ -421,7 +421,7 @@ footer a{
     flex-direction: column;
     text-align: center;
     overflow: hidden;
-    gap: 5rem;
+    gap: 2rem;
   }
   .home-text h1{
     font-size: 4rem;
@@ -442,6 +442,7 @@ footer a{
   }
   .home-img{
     width: 125%;
+    margin-top: -6.5rem;
   }
   .sobre{
     height: 100%;
