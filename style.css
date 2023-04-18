@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans&family=Bowlby+One+SC:wght@400;700&display=swap');
-
 *{
   margin: 0;
   padding: 0;
@@ -278,7 +276,6 @@ button:hover {
 .sponsors{
   margin-top: 5rem;
 }
-
 .patrocinadores {
   padding: 5rem 5%;
   margin: 0 auto;
@@ -286,25 +283,52 @@ button:hover {
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-
+  grid-template-areas: 
+    "A B C"
+    "A D E";
 }
-
-.sponsors .logo-irmas{
+.patrocinadores a:nth-child(1) {
+  grid-area: A;
   width: 32rem;
 }
-.sponsors .logo-marcela{
+.patrocinadores a:nth-child(2) {
   width: 25rem;
+  grid-area: B;
 }
-.sponsors .logo-gmalpha{
+.patrocinadores a:nth-child(3) {
   width: 20rem;
+  grid-area: C;
 }
-.sponsors .logo-lanza{
+.patrocinadores a:nth-child(4) {
   width: 20rem;
+  grid-area: D;
 }
-.sponsors .logo-okeo{
+.patrocinadores a:nth-child(5) {
   width: 20rem;
+  grid-area: E;
 }
-.sponsors .logo-angelica{
+
+.supporters{
+  margin-top: 5rem;
+}
+.apoiadores {
+  padding: 5rem 13%;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.apoiadores a:nth-child(1){
+  width: 18rem;
+}
+.apoiadores a:nth-child(2){
+  width: 18rem;
+}
+.apoiadores a:nth-child(3){
+  width: 18rem;
+}
+.apoiadores a:nth-child(4){
   width: 18rem;
 }
 
@@ -374,7 +398,7 @@ footer a{
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;  
+    grid-template-rows: 1fr 1fr;  
   }
 }
 
@@ -475,6 +499,15 @@ footer a{
     justify-content: center;
     padding: 0 5rem;
     gap: 5rem;
+  }
+
+  .apoiadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem;
+    gap: 2rem;
+    margin-top: 2rem;
   }
 
 }
