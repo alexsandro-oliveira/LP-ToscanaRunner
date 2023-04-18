@@ -319,18 +319,11 @@ button:hover {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
-.apoiadores a:nth-child(1){
+.apoiadores a:nth-child(1),.apoiadores a:nth-child(2), 
+.apoiadores a:nth-child(3), .apoiadores a:nth-child(4) {
   width: 18rem;
 }
-.apoiadores a:nth-child(2){
-  width: 18rem;
-}
-.apoiadores a:nth-child(3){
-  width: 18rem;
-}
-.apoiadores a:nth-child(4){
-  width: 18rem;
-}
+
 
 .rota h1 {
   margin-top: 5rem;
