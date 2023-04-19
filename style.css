@@ -323,6 +323,10 @@ button:hover {
 .apoiadores a:nth-child(3), .apoiadores a:nth-child(4) {
   width: 18rem;
 }
+.apoiadores a:nth-child(5) {
+  width: 32rem;
+  margin-top: 3rem;
+}
 
 
 .rota h1 {
@@ -539,6 +543,10 @@ footer a{
   }
   .apoiadores a:nth-child(4) {
     animation: slide-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.5s both;
+    z-index: -1;
+  }
+  .apoiadores a:nth-child(5) {
+    animation: slide-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
     z-index: -1;
   }
   
