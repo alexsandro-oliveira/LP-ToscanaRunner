@@ -283,10 +283,11 @@ button:hover {
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: 
     "A B C"
-    "A D E";
+    "A D E"
+    ". . F";
 }
 .patrocinadores a:nth-child(1) {
   grid-area: A;
@@ -308,6 +309,10 @@ button:hover {
   width: 20rem;
   grid-area: E;
 }
+.patrocinadores a:nth-child(6) {
+  width: 20rem;
+  grid-area: F;
+}
 
 .supporters{
   margin-top: 5rem;
@@ -319,6 +324,10 @@ button:hover {
   place-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "A B C"
+    "A D E"
+    ". . F";
 }
 .apoiadores a:nth-child(1),.apoiadores a:nth-child(2), 
 .apoiadores a:nth-child(3), .apoiadores a:nth-child(4) {
@@ -326,6 +335,10 @@ button:hover {
 }
 .apoiadores a:nth-child(5) {
   width: 32rem;
+  margin-top: 3rem;
+}
+.apoiadores a:nth-child(6) {
+  width: 22rem;
   margin-top: 3rem;
 }
 
@@ -397,6 +410,15 @@ footer a{
     place-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;  
+  }
+
+  .apoiadores {
+    padding: 5rem 13%;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
 
@@ -498,7 +520,7 @@ footer a{
     padding: 0 5rem;
     gap: 5rem;    
     }
-  }
+  
 
   .patrocinadores a:nth-child(1) {
     animation: slide-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -519,6 +541,10 @@ footer a{
   .patrocinadores a:nth-child(5) {
     animation: slide-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
     z-index: -1;
+  }
+
+  .supporters h1{
+    font-size: 2.4rem;
   }
 
   .apoiadores {
@@ -550,7 +576,11 @@ footer a{
     animation: slide-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
     z-index: -1;
   }
-  
+  .apoiadores a:nth-child(6) {
+    animation: slide-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
+    z-index: -1;
+  }
+
 
   @keyframes slide-left {
   0% {
@@ -558,5 +588,6 @@ footer a{
   }
   100% {
     transform: translateX(0);
+  }
   }
 }
